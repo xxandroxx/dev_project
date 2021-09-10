@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- Normalize -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Styles usuario -->
+    <link rel="stylesheet" href="css/usuario-style.css">
+
+
+    <title>Taberna Medieval</title>
+</head>
+
+<body>
+    <div class="taberna-fondo">
+        <!-- header -->
+        <header class="header">
+
+            <div class="fondo-oscuro"></div>
+            <h1>Taberna Medieval</h1>
+            <div class="cartel">
+                <img id="papiro" src="img/papiro2.png" alt="papiro">
+            </div>
+        </header>
+        <!-- fin Header -->
+
+        <!-- Nav -->
+
+        <nav class="navegacion">
+            <a href="/"><img src="img/letrero-nav-inicio.png" alt="">Inicio</a>
+            <a href="informacion.html"><img src="img/letrero-nav-informacion3.png" alt="">Información</a>
+            <a href="seleccion.html"><img src="img/letrero-nav-seleccion.png" alt="">Selección Personajes</a>
+            <a href="usuario.html"><img src="img/letrero-nav-usuario2.png" alt="">Usuario</a>
+
+        </nav>
+
+        <!-- fin nav -->
+
+        <!-- nav2 -->
+
+        <nav class="navegacion2">
+            <a href="/"><img src="img/letrero-nav-inicio.png" alt=""></a>
+            <a href="informacion.html"><img src="img/letrero-nav-informacion3.png" alt=""></a>
+            <a href="seleccion.html"><img src="img/letrero-nav-seleccion.png" alt=""></a>
+            <a href="usuario.html"><img src="img/letrero-nav-usuario2.png" alt=""></a>
+
+        </nav>
+
+        <!-- Fin de Nav 2 -->
+
+
+
+
+
+        <!-- Main -->
+
+        <main class="main-index contenedor">
+
+            <h2>Bienvenido a la Taberna Medieval</h2>
+
+            <div class="contenedor-info">
+                <h3>Información de Taberna Medieval</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia doloremque, architecto iure assumenda autem illum blanditiis. Rem, esse! Aspernatur voluptatum tenetur sed fugiat nostrum cupiditate voluptas illum perspiciatis eius ipsa? Inventore
+                    explicabo corrupti veritatis sapiente amet ut, dolore, maxime nulla quos, aspernatur nobis numquam ab voluptatibus veniam qui facere error provident quas sint quam saepe? Culpa reiciendis assumenda in molestias!
+                </p>
+            </div>
+
+
+            <div class="contenedor-info">
+                <h3>Noticias</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia doloremque, architecto iure assumenda autem illum blanditiis. Rem, esse! Aspernatur voluptatum tenetur sed fugiat nostrum cupiditate voluptas illum perspiciatis eius ipsa? Inventore
+                    explicabo corrupti veritatis sapiente amet ut, dolore, maxime nulla quos, aspernatur nobis numquam ab voluptatibus veniam qui facere error provident quas sint quam saepe? Culpa reiciendis assumenda in molestias!
+                </p>
+            </div>
+
+        </main>
+        <!-- Fin de Main -->
+
+
+        <!-- Responsive -->
+        <!-- <section class="responsive">
+            <h2>Aplicación no disponible en responsive</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium dolores eaque vel labore earum, voluptate neque, quos, voluptatem nesciunt optio quas. Earum reiciendis ex dolorem animi deleniti sit sequi corrupti!</p>
+        </section> -->
+
+        <!-- Fin responsive -->
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p> Sitio Web creado por Sandro Ovando</p>
+        </footer>
+        <!-- Fin Footer -->
+
+    </div>
+
+    <!-- ------------------------------------------------------------------------------------------------------------------- -->
+
+    <!-- POPUP -->
+
+    <div class="overlay">
+        <div class="popup">
+
+            <div class="contenedor-form contenedor">
+
+                <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <line x1="18" y1="6" x2="6" y2="18" />
+                        <line x1="6" y1="6" x2="18" y2="18" />
+                      </svg>
+                </a>
+
+                <h2>Hey Aventurero <br> Regístrate aquí ! !</h2>
+
+                <!-- Formulario -->
+                <form id="form" class="form">
+
+
+                    <div class="inputs-form">
+                        <label>Nombre de Usuario: </label>
+                        <input id="nombre-usuario" type="text">
+                    </div>
+
+                    <div class="inputs-form">
+                        <label>Nombre del Personaje:</label>
+                        <input id="nombre-pj" type="text">
+                    </div>
+
+                    <div class="inputs-form">
+                        <label>Contraseña:</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+
+                    <div class="inputs-form">
+                        <label>Repetir Contraseña:</label>
+                        <input type="password" name="password" id="password-repetida">
+                    </div>
+
+
+                    <div class="centrar-btn">
+                        <input type="submit" id="btn-form" value="Enviar">
+                    </div>
+                </form>
+                <!-- Fin Formulario -->
+            </div>
+        </div>
+    </div>
+    <!-- Fin POPUP -->
+
+    <!-- ------------------------------------------------------------------------------------------------------------------- -->
+
+
+
+    <!-- js papiro -->
+    <script src="js/papiro.js"></script>
+
+    <!-- js usuario -->
+    <script src="js/usuarios.js"></script>
+
+</body>
+
+</html>

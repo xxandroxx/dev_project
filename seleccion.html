@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- Normalize -->
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>Taberna Medieval</title>
+</head>
+
+<body>
+
+    <section class="taberna-fondo">
+        <!-- header -->
+        <header class="header">
+            <div class="fondo-oscuro"></div>
+            <h1>Taberna Medieval</h1>
+
+            <div class="cartel">
+                <img src="img/papiro2.png" alt="papiro">
+            </div>
+        </header>
+        <!-- fin Header -->
+
+        <!-- Nav -->
+
+
+
+        <nav class="navegacion">
+            <a href="/"><img src="img/letrero-nav-inicio.png" alt="">Inicio</a>
+            <a href="informacion.html"><img src="img/letrero-nav-informacion3.png" alt="">Información</a>
+            <a href="seleccion.html"><img src="img/letrero-nav-seleccion.png" alt="">Selección Personajes</a>
+            <a href="usuario.html"><img src="img/letrero-nav-usuario2.png" alt="">Usuario</a>
+
+        </nav>
+
+        <!-- Fin de Nav -->
+
+        <!-- nav2 -->
+
+        <nav class="navegacion2">
+            <a href="/"><img src="img/letrero-nav-inicio.png" alt=""></a>
+            <a href="informacion.html"><img src="img/letrero-nav-informacion3.png" alt=""></a>
+            <a href="seleccion.html"><img src="img/letrero-nav-seleccion.png" alt=""></a>
+            <a href="usuario.html"><img src="img/letrero-nav-usuario2.png" alt=""></a>
+
+        </nav>
+
+        <!-- Fin de Nav 2 -->
+
+        <!-- Main -->
+
+        <main class="main-index contenedor">
+            <h2>Selección de Personaje</h2>
+
+            <div class="contenedor-seleccion">
+
+                <!-- Contenedor Logos -->
+                <div class="contenedor-logos">
+
+                    <!-- Logo Humano -->
+                    <div id="logo-humanos" class="contenido-logos">
+                        <img src="img/logo-humanos.png" alt="humanos-logo">
+                    </div>
+
+                    <!-- Logo Elfo -->
+                    <div id="logo-elfos" class="contenido-logos">
+                        <img src="img/logo-elfo.png" alt="elfos-logo">
+                    </div>
+
+                    <!-- Logo Orco -->
+                    <div id="logo-orcos" class="contenido-logos">
+                        <img src="img/logo-orcos.png" alt="orcos-logo">
+                    </div>
+                </div>
+                <!-- Fin contenedor Logos -->
+
+                <!-- Contenedor Seleccion Personaje -->
+                <div class="contenedor-seleccion-personajes">
+
+                    <!-- Contenido humanos -->
+                    <div id="seleccion-humanos" class="contenedor-razas-seleccion contenedor-razas humanos">
+                        <h3>Humanos</h3>
+
+                        <div class="contenido-razas-seleccion contenido-razas">
+                            <div>
+                                <img id="img-humanos" src="img/human-man.png" alt="humano">
+                                <div class="contenedor-genero">
+                                    <div id="genero-male-humanos" class="contenido-genero">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mars" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <circle cx="10" cy="14" r="5" />
+                                        <line x1="19" y1="5" x2="13.6" y2="10.4" />
+                                        <line x1="19" y1="5" x2="14" y2="5" />
+                                        <line x1="19" y1="5" x2="19" y2="10" />
+                                      </svg>
+                                        <audio id="audio-male-humanos" src="sounds/human-man.wav"></audio>
+                                    </div>
+
+                                    <div id="genero-female-humanos" class="contenido-genero">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-venus" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <circle cx="12" cy="9" r="5" />
+                                        <line x1="12" y1="14" x2="12" y2="21" />
+                                        <line x1="9" y1="18" x2="15" y2="18" />
+                                      </svg>
+                                        <audio id="audio-female-humanos" src="sounds/human-mujer.wav"></audio>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="personaje-stats">
+                                <h4>STATS</h4>
+                                <p>STR <span>20</span></p>
+                                <p>SPEED <span>15</span></p>
+                                <p>DEX <span>23</span></p>
+                                <p>DEF <span>22</span></p>
+
+                            </div>
+                        </div>
+
+                        <h3 id="btn-humanos" class="btn-seleccionar-humano">Seleccionar</h3>
+                        <audio id="humano-hombre-seleccionado" src="sounds/humano-man-elegido.wav"></audio>
+                        <audio id="humano-mujer-seleccionado" src="sounds/humano-female-elegido.wav"></audio>
+                    </div>
+                    <!-- Fin contenido Humanos -->
+
+
+                    <!-- Contenido Elfos -->
+                    <div id="seleccion-elfos" class="contenedor-razas contenedor-razas-seleccion elfos">
+                        <h3>Elfos</h3>
+
+                        <div class="contenido-razas contenido-razas-seleccion">
+                            <div>
+                                <img id="img-elfos" src="img/elfo-man.png" alt="elfo">
+                                <div class="contenedor-genero">
+                                    <div id="genero-male-elfos" class="contenido-genero">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mars" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <circle cx="10" cy="14" r="5" />
+                                        <line x1="19" y1="5" x2="13.6" y2="10.4" />
+                                        <line x1="19" y1="5" x2="14" y2="5" />
+                                        <line x1="19" y1="5" x2="19" y2="10" />
+                                      </svg>
+                                        <audio id="audio-male-elfos" src="sounds/elf-man.wav"></audio>
+                                    </div>
+
+                                    <div id="genero-female-elfos" class="contenido-genero">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-venus" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <circle cx="12" cy="9" r="5" />
+                                        <line x1="12" y1="14" x2="12" y2="21" />
+                                        <line x1="9" y1="18" x2="15" y2="18" />
+                                      </svg>
+                                        <audio id="audio-female-elfos" src="sounds/elf-mujer.wav"></audio>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="personaje-stats">
+                                <h4>STATS</h4>
+                                <p>STR <span>20</span></p>
+                                <p>SPEED <span>15</span></p>
+                                <p>DEX <span>23</span></p>
+                                <p>DEF <span>22</span></p>
+
+                            </div>
+                        </div>
+
+                        <h3 id="btn-elfos" class="btn-seleccionar-elfo">Seleccionar</h3>
+                        <audio id="elfo-male-seleccionado" src="sounds/elf-man-elegido.wav"></audio>
+                        <audio id="elfo-female-seleccionado" src="sounds/elfo-female-elegido.wav"></audio>
+                    </div>
+                    <!-- Fin contenido Elfos -->
+
+
+                    <!-- Contenido orco -->
+                    <div id="seleccion-orcos" class="contenedor-razas contenedor-razas-seleccion orcos">
+                        <h3>Orcos</h3>
+
+                        <div class="contenido-razas contenido-razas-seleccion">
+                            <div>
+                                <img id="img-orcos" src="img/orco-man.png" alt="orco">
+                                <div class="contenedor-genero">
+                                    <div id="genero-male-orcos" class="contenido-genero">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mars" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <circle cx="10" cy="14" r="5" />
+                                        <line x1="19" y1="5" x2="13.6" y2="10.4" />
+                                        <line x1="19" y1="5" x2="14" y2="5" />
+                                        <line x1="19" y1="5" x2="19" y2="10" />
+                                      </svg>
+                                        <audio id="audio-male-orcos" src="sounds/orc-man.wav"></audio>
+                                    </div>
+
+                                    <div id="genero-female-orcos" class="contenido-genero">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-venus" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                        <circle cx="12" cy="9" r="5" />
+                                        <line x1="12" y1="14" x2="12" y2="21" />
+                                        <line x1="9" y1="18" x2="15" y2="18" />
+                                      </svg>
+                                        <audio id="audio-female-orcos" src="sounds/orc-mujer.wav"></audio>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="personaje-stats">
+                                <h4>STATS</h4>
+                                <p>STR <span>20</span></p>
+                                <p>SPEED <span>15</span></p>
+                                <p>DEX <span>23</span></p>
+                                <p>DEF <span>22</span></p>
+
+                            </div>
+                        </div>
+
+                        <h3 id="btn-orcos" class="btn-seleccionar-orco">Seleccionar</h3>
+                        <audio id="orco-male-seleccionado" src="sounds/orco-man-elegido.wav"></audio>
+                        <audio id="orco-female-seleccionado" src="sounds/orco-female-elegido.wav"></audio>
+                    </div>
+                    <!-- Fin contenido orco -->
+                </div>
+                <!-- Fin Contenedor Seleccion Personaje -->
+            </div>
+
+
+            <!-- Responsive -->
+            <section class="responsive">
+                <h2>Selección de personaje no disponible en responsive</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium dolores eaque vel labore earum, voluptate neque, quos, voluptatem nesciunt optio quas. Earum reiciendis ex dolorem animi deleniti sit sequi corrupti!</p>
+            </section>
+
+            <!-- Fin responsive -->
+
+        </main>
+        <!-- Fin de Main -->
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p> Sitio Web creado por Sandro Ovando</p>
+        </footer>
+        <!-- Fin Footer -->
+    </section>
+
+
+    <!-- javascript app.js -->
+    <script src="js/app.js"></script>
+
+    <!-- JS Papiro -->
+    <script src="js/papiro.js"></script>
+
+    <!-- JS usuario -->
+    <script src="js/usuarios.js"></script>
+</body>
+
+</html>
